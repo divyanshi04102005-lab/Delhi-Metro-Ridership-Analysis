@@ -1,4 +1,3 @@
-```sql
 /* ============================================================
    DELHI METRO SQL PROJECT
    SQL ANALYSIS, DATA CLEANING & BUSINESS INSIGHTS
