@@ -91,6 +91,10 @@ SQL techniques used include:
 
 The Power BI dashboard provides an interactive view of Delhi Metro ridership and revenue performance, allowing users to explore passenger trends, metro lines, ticket types, and station-level performance using interactive filters.
 <img width="1442" height="803" alt="Dashboard png" src="https://github.com/user-attachments/assets/f6f7cb39-1a1e-4a5d-9b04-7aa496ab8fb0" />
+## Project Files
+
+- 📊 [Power BI Dashboard](./DELHI%20METRO.pbix)
+- 🗃️ [SQL Analysis](./Delhi_Metro_analysis.sql)
 
 ## Future Enhancements
 
