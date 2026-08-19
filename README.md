@@ -1,6 +1,6 @@
 # Delhi Metro Ridership & Revenue Analysis
 
-An end-to-end data analytics project analyzing **150,000+ Delhi Metro trips** using **SQL and Power BI** to uncover insights into passenger trends, station performance, ticket types, metro lines, fares, distance, and revenue.
+An end-to-end data analytics project analyzing **150,000 Delhi Metro trips** using **SQL and Power BI** to uncover insights into passenger trends, station performance, ticket types, metro lines, fares, distance, and revenue.
 
 ## Project Overview
 
@@ -9,24 +9,38 @@ This project combines SQL-based data analysis with an interactive Power BI dashb
 The analysis focuses on understanding ridership patterns, identifying high-performing stations and routes, analyzing ticket-type usage, and exploring fare and revenue trends.
 ## Tools & Technologies
 
-- **SQL (MySQL)** — Data cleaning, transformation, analysis, aggregations, CTEs, and ranking
+- **SQL (MySQL)** — Data cleaning, transformation, analysis, aggregations, CTEs, window functions and ranking
 - **Power BI** — Interactive dashboard, KPI cards, charts, and slicers
 - **Power Query** — Data preparation and transformation
 - **GitHub** — Project documentation and portfolio
 
 ## Dataset
 
-The project uses Delhi Metro trip and station datasets containing information such as:
+The project uses two datasets: **Trips** and **Stations**.
 
-- Trip date
+### Trips Dataset
+
+- Trip ID
+- Date
 - Origin and destination stations
-- Distance travelled
+- Distance travelled (km)
 - Fare
+- Cost per passenger
 - Passenger count
 - Ticket type
-- Metro line
-- Station details
-- Station location and opening year
+- Remarks
+
+### Stations Dataset
+
+- Station ID
+- Station Name
+- Distance from First Station (km)
+- Metro Line
+- Opened Year
+- Layout
+- Latitude
+- Longitude
+
 ## Key Performance Indicators
 
 | KPI | Value |
@@ -81,7 +95,7 @@ SQL techniques used include:
 - SQL-based station and route analysis helped identify high-volume locations and commonly used travel patterns.
 ## Project Workflow
 
-1. **Data Collection** — Collected Delhi Metro trip and station datasets.
+1. **Data Collection** — Collected Delhi Metro trip and station datasets from Kaggle.
 2. **Data Cleaning** — Identified and handled missing values, inconsistent station names, duplicate station records, and formatting issues.
 3. **SQL Analysis** — Performed exploratory and analytical queries using MySQL to identify passenger, station, route, fare, distance, and revenue patterns.
 4. **Power BI Preparation** — Imported the cleaned data and established the required data relationships.
